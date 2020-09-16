@@ -1,0 +1,116 @@
+body {
+	background-image: url('background.jpg');
+	margin-top: 100px;
+}
+
+  h1 {
+  	text-align: center;
+  	font-size: 45px;
+  	color: #050505;
+  	margin-bottom: 65px; 
+  	text-transform: uppercase;
+  	font-weight: bold;
+  }
+  img
+  {
+  	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  margin-top: 20px;
+  border-radius: 50%; 
+    }
+  body p{
+  	font-size: 20px;
+  }
+  .register-left
+  {
+  	text-align: center;
+  	color: #3B1C1D;
+  	padding: 25px;
+  }
+  .register-left img
+  {
+  	animation: mover 1s infinite alternate;
+  }
+  .register-left h3
+  {
+  	font-size: 37px;
+  	font-family: Garamond;
+  }
+  .register-left .btn-primary{
+     border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #f8f8f8;
+    font-weight: 600;
+    color: #555;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .register-left .btn-primary:hover{
+  	background; #F20A0E;
+  	transition-delay: 200ms;
+  }
+  .register-right h2
+  {
+    text-align: center;
+    margin-bottom: 15px;
+    color; #0A0102;
+  }
+  .register-right form {
+  	padding: 30px;
+  	color: #242C96;
+}
+
+  .register-right .btn-primary{
+  	 float: right;
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #B3B1AB;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+}
+  
+ .register-right .btn-primary:hover {
+ 	background: #0AF27E;
+ 	transition-delay: 200ms;
+ }
+
+footer
+{
+	text-align: center;
+	margin-top: 15px;
+	padding: 10px 10px 10px 10px;
+}
+footer h3{
+	color: #FDFCFF;
+	margin-bottom: 10px;
+}
+footer .btn-primary
+{
+	border-radius: 1.5rem;
+    border: none;
+    width: 140px;
+    background: #5F5966;
+    font-weight: 600;
+    color: #fff;
+    
+    padding: 10px;
+}
+footer .btn-primary:hover {
+	background: #FA0004;
+	transition-delay: 200ms;
+}
+
+
+  @keyframes mover
+{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-20px);}
+}
+
+
