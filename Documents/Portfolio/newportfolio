@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+</head>
+<body>
+  <div class="top-part">
+    <div id="navbar">
+      <div id="right">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Work&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact</div>
+  </div>
+  <center>
+    <h1>Hey I am Mimic</h1>
+    <h2>a web developer</h2>
+  </center>
+</div>
+<div class="bottom-part">
+  <center>
+    <div class="projects">
+        <hi>These are some of my project</hi>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">
+        <div class="col-lg-4 col-md-6 col-12">
+
+          <div class="card one">
+
+          </div>
+        </a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card two"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card three"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card four"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card five"></div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card six"></div>
+        </div>
+      </div>
+    </div>
+  </center>
+ </div>
+ <div class="footer">
+  <center>
+    <h1>Let's work together...</h1>
+    <h3>how do you take your coffee</h3>
+    <div class="icons">
+    <div><i class="fab fa-facebook-f"></i>Facebook</div>&nbsp;&nbsp;&nbsp;<div>Github</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div><i class="fab fa-twitter"></i>Twitter</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div>Send a mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div>Call me</div>
+    </div>
+  </center><i class="fab fa-twitter"></i>
+</div>
+</body>
+</html>
+<style>
+@media (min-width:767px){
+  #navbar{background-color:#be3144;margin-top:4rem;height:5rem;}
+  #right{margin-left:95rem;
+        padding-top:1.7rem;
+        font-size:1.1rem;
+        color:white;
+        }
+  .top-part{background-color:#1f1f22;height:30rem;}
+  h1{color:white;font-size:4.5rem;padding-top:4rem;margin-top:4rem;}
+  h2{color:#b42f34;font-size:3rem;}
+  .bottom-part{height:70rem;background-color:#45567d;padding-top:6rem;}
+  .projects{font-size:2.5rem;color:white;}
+  h3{color:#aeb0b3;}
+  hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-width:0.1rem;
+  color:white;
+  width:36rem;
+  font-size:2rem;
+  }
+
+ .footer{background-color:white;
+         height:40rem;
+         margin-top:-5rem;}
+
+}
+
+.icons{display:flex;color:#aeb0b3;justify-content:center;padding-top:4rem;font-size:2rem;}
+
+ .card {
+  height:26rem;
+  width:21rem;
+  border:1rem;
+  margin-bottom:1rem;
+  }
+  .one {
+      background-image: url("tribute.jpg");
+      background-size: 100% 100%;
+     }
+     .two {
+      background-image: url("random.png");
+      background-size: 100% 100%;
+     }
+     .three {
+      background-image: url("calc.png");
+      background-size: 100% 100%;
+     }
+     .four {
+      background-image: url("map.jpg");
+      background-size: 100% 100%;
+     }
+     .five {
+      background-image: url("wiki.png");
+      background-size: 100% 100%;
+     }
+     .six {
+      background-image: url("tic-tac-toe.png");
+      background-size: 100% 100%;
+     }
+
+
+
+</style>
+<!-- #303841 -->
